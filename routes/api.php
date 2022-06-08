@@ -20,3 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/nisc',[NiscController::class,'index']);
+
+Route::post('ubid',[NiscController::class,'store']);

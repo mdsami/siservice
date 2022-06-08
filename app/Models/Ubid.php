@@ -5,10 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Nisc extends Model
+class Ubid extends Model
 {
-
-    protected $table = 'companyinfo';
-
     use HasFactory;
+    protected $table = 'companyinfo';
 }
